@@ -7,7 +7,7 @@ function Main(props) {
 
     const [people, setPeople] = useState(null)
 
-    const URL = "http://localhost:4000/people/";
+    const URL = "https://people-app-api10.herokuapp.com/people/";
     
     // fetch people data from backend
     const getPeople = async () => {
